@@ -1,0 +1,86 @@
+@import url(null.css);
+
+html, body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+	position: relative;	
+	padding: 40px;
+	min-height: auto%;	
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+.image-slider.swiper-container {		
+	background-color: rgba(0, 0, 0, 0.788);
+}
+
+.image-slider {
+	overflow: hidden;
+	padding: 50px 0;
+}
+.image-slider__wrapper {
+	
+}
+.image-slider__slide {
+
+}
+.image-slider__image {
+	text-align: center;
+}
+.image-slider__image img {
+	max-width: 100%;
+}
+
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+	color: #000;
+	font-size: 40px;
+}
+
+/* Пагинация */
+.image-slider .swiper-pagination {
+	bottom: 10px;
+}
+/* Буллеты */
+.image-slider .swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	line-height: 20;
+	font-size: 14px;
+	background-color: #020;
+}
+ 
+/* Фракции (2/6) */
+.image-slider .swiper-pagination-fraction {
+	font-size: 20px;
+	color: #000;
+} 
+
+/* Прогрессбар (линия) */
+.image-slider .swiper-pagination-progressbar-fill {
+	background-color: #053;
+}
+
+/* Скролл */
+.image-slider .swiper-scrollbar-drag {
+	cursor: pointer;
+	background-color: #0a1f16;
+}
+
+
+/* Автоширина */
+.image-slider .swiper-slide {
+	width: auto;
+} 
