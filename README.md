@@ -1,2 +1,2 @@
 ## swiper-slider__horizont
-### gh-page: 
+### gh-page: https://goldyfrontend.github.io/swiper-slider__horizont/
