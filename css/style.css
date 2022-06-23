@@ -10,7 +10,7 @@ html, body {
 .wrapper {
 	position: relative;	
 	padding: 40px;
-	min-height: auto%;	
+	min-height: auto;	
 }
 
 .title {
