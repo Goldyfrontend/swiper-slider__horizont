@@ -183,4 +183,29 @@ new Swiper('.image-slider', {
 			slidesPerView: 3,
 		},
 	},
+
+	// Отключить предзагрузка картинок
+	preloadImages: false,
+	// (подгрузка картинок)
+	lazy: {
+		// Подгружать на старте переключения слайда
+		loadOnTransitionStart: true,
+		// Подгружать предыдущую и следующую картинки
+		loadPrevNext: false,
+	},
+	// Слежка за видимыми слайдами
+	watchSlidesProgress: true,
+	// Добавление класса видимым слайдам
+	watchSlideVisibility: true,
+
+
+	/*
+	// Зум картинки
+	zoom: {
+		// Максимальное увеличение
+		maxRatio: 5,
+		// Минимальное увеличение
+		minRatio: 1,
+	},
+	*/
 });
